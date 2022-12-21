@@ -14,6 +14,8 @@
 		1FA4A7C7294C8C16008B0572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4A7C5294C8C16008B0572 /* LaunchScreen.storyboard */; };
 		1FA4A7CF294C8E6E008B0572 /* ContaktsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4A7CE294C8E6E008B0572 /* ContaktsTableView.swift */; };
 		1FA4A7D8294C90DF008B0572 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4A7D7294C90DF008B0572 /* Contacts.swift */; };
+		1FAC369429532282006790E7 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAC369329532282006790E7 /* Cell.swift */; };
+		1FAC369829532E9E006790E7 /* AlertNewContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAC369729532E9E006790E7 /* AlertNewContacts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		1FA4A7C8294C8C16008B0572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FA4A7CE294C8E6E008B0572 /* ContaktsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaktsTableView.swift; sourceTree = "<group>"; };
 		1FA4A7D7294C90DF008B0572 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		1FAC369329532282006790E7 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		1FAC369729532E9E006790E7 /* AlertNewContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertNewContacts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +75,9 @@
 			isa = PBXGroup;
 			children = (
 				1FA4A7BE294C8C15008B0572 /* ContaktsViewController.swift */,
-				1FA4A7CE294C8E6E008B0572 /* ContaktsTableView.swift */,
+				1FAC3696295326C8006790E7 /* TableView */,
+				1FAC3695295326AD006790E7 /* Cell */,
+				1FAC369729532E9E006790E7 /* AlertNewContacts.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -100,6 +106,22 @@
 				1FA4A7D7294C90DF008B0572 /* Contacts.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		1FAC3695295326AD006790E7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1FAC369329532282006790E7 /* Cell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		1FAC3696295326C8006790E7 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				1FA4A7CE294C8E6E008B0572 /* ContaktsTableView.swift */,
+			);
+			path = TableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,8 +197,10 @@
 				1FA4A7CF294C8E6E008B0572 /* ContaktsTableView.swift in Sources */,
 				1FA4A7D8294C90DF008B0572 /* Contacts.swift in Sources */,
 				1FA4A7BF294C8C15008B0572 /* ContaktsViewController.swift in Sources */,
+				1FAC369829532E9E006790E7 /* AlertNewContacts.swift in Sources */,
 				1FA4A7BB294C8C15008B0572 /* AppDelegate.swift in Sources */,
 				1FA4A7BD294C8C15008B0572 /* SceneDelegate.swift in Sources */,
+				1FAC369429532282006790E7 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
